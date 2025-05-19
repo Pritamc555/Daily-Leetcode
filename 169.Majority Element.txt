@@ -8,7 +8,7 @@ public:
             mpp[nums[i]]++;
         }
 
-        // not traverse map
+        // now traverse the map
 
         for(auto it : mpp){
             if(it.second > n / 2){
